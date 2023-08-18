@@ -9,6 +9,7 @@
 *.vcxproj.user
 *.sln
 SomAlwaysCleaner.sln
+vcpkg_installed/
 
 # User-specific files
 *.rsuser
