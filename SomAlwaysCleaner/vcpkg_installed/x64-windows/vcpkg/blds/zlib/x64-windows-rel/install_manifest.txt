@@ -1,0 +1,4 @@
+C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/x64-windows/vcpkg/pkgs/zlib_x64-windows/lib/zlib.lib
+C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/x64-windows/vcpkg/pkgs/zlib_x64-windows/bin/zlib1.dll
+C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/x64-windows/vcpkg/pkgs/zlib_x64-windows/include/zconf.h
+C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/x64-windows/vcpkg/pkgs/zlib_x64-windows/include/zlib.h

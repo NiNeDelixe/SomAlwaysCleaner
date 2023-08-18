@@ -1,0 +1,8 @@
+{
+  "name": "somalwayscleaner",
+  "version": "0.0.1",
+  "dependencies": [
+    "nlohmann-json"
+  ],
+  "builtin-baseline": "7e7c62d863b1bf599c1d104b76cd8b74475844d4"
+}

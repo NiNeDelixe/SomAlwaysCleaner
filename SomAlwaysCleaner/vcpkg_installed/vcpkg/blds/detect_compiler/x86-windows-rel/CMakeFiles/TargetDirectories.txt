@@ -1,0 +1,2 @@
+C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/detect_compiler/x86-windows-rel/CMakeFiles/edit_cache.dir
+C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/detect_compiler/x86-windows-rel/CMakeFiles/rebuild_cache.dir

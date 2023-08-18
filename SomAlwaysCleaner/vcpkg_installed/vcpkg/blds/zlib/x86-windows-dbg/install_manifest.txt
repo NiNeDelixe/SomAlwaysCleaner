@@ -1,0 +1,2 @@
+C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows/debug/lib/zlibd.lib
+C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/pkgs/zlib_x86-windows/debug/bin/zlibd1.dll
