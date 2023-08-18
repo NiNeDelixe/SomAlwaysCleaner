@@ -1,8 +1,0 @@
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/spdlog/x86-windows-rel/CMakeFiles/spdlog.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/spdlog/x86-windows-rel/CMakeFiles/package.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/spdlog/x86-windows-rel/CMakeFiles/package_source.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/spdlog/x86-windows-rel/CMakeFiles/edit_cache.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/spdlog/x86-windows-rel/CMakeFiles/rebuild_cache.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/spdlog/x86-windows-rel/CMakeFiles/list_install_components.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/spdlog/x86-windows-rel/CMakeFiles/install.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/spdlog/x86-windows-rel/CMakeFiles/install/local.dir

@@ -1,8 +1,0 @@
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/fmt/x86-windows-dbg/CMakeFiles/fmt.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/fmt/x86-windows-dbg/CMakeFiles/package.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/fmt/x86-windows-dbg/CMakeFiles/package_source.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/fmt/x86-windows-dbg/CMakeFiles/edit_cache.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/fmt/x86-windows-dbg/CMakeFiles/rebuild_cache.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/fmt/x86-windows-dbg/CMakeFiles/list_install_components.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/fmt/x86-windows-dbg/CMakeFiles/install.dir
-C:/Users/alkor/source/repos/SomAlwaysCleaner/SomAlwaysCleaner/vcpkg_installed/vcpkg/blds/fmt/x86-windows-dbg/CMakeFiles/install/local.dir
