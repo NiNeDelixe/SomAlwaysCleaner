@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Deleters\Deleter.cpp" />
+    <ClCompile Include="Files\Files.cpp" />
     <ClCompile Include="Notifications\Notification.cpp" />
     <ClCompile Include="SomAlwaysCleaner.cpp" />
     <ClCompile Include="Time\Time.cpp" />

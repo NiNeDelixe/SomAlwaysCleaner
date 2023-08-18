@@ -50,3 +50,27 @@ std::string FormatMilliseconds(int milliseconds, bool includeLabel)
     }
     return std::to_string(milliseconds) + " ms";
 }
+
+std::vector<FILETIME> getFileTime(std::string file)
+{
+    FILETIME creationTime, writeTime, accessTime;
+
+    WIN32_FIND_DATAA findFileData;
+    HANDLE fileHandle = FindFirstFileA(file.c_str(), &findFileData);
+
+    if (fileHandle != INVALID_HANDLE_VALUE)
+    {
+        creationTime = findFileData.ftCreationTime;
+        writeTime = findFileData.ftLastWriteTime;
+        accessTime = findFileData.ftLastAccessTime;
+
+        FindClose(fileHandle);
+    }
+    else
+    {
+        std::cerr << "Не удалось открыть файл." << std::endl;
+    }
+
+    std::vector<FILETIME> ret = { creationTime, writeTime, accessTime };
+    return ret;
+}

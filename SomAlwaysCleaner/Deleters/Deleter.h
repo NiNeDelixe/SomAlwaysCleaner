@@ -8,10 +8,7 @@
 #include <filesystem>
 
 #include "../Time/Time.h"
-
-
-std::vector<std::string> getFilesInDirectory(std::string directory_path);
-
+#include "../Files/Files.h"
 
 /*
 Список ошибок:
@@ -21,8 +18,6 @@ std::vector<std::string> getFilesInDirectory(std::string directory_path);
 2 - Папка пуста
 */
 int cleanDirectory(std::string directory_path);
-
-std::vector<FILETIME> getFileTime(std::string file);
 
 
 #endif /*!DELETER_H*/
