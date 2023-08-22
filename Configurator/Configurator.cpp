@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 	//startConfigurateCleaner("Папка_для_очистки");
 	if (argc < 2)
 	{
-		argcError(argc, argv, "didnt find folder");
+		argcError(2, argv, "didnt find folder");
 		return 1;
 	}
 	if (argv[1])
@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		argcError(argc, argv, "didnt find folder");
+		argcError(2, argv, "didnt find folder");
 		return 1;
 	}
 	return 0;
@@ -33,5 +33,5 @@ int main(int argc, char* argv[])
 
 void argcError(int argc, char* argv[], std::string string)
 {
-	std::cout << argv[0] << string << std::endl;
+	std::cout << argv[argc] << string << std::endl;
 }
