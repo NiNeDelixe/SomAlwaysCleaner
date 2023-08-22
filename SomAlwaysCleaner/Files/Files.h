@@ -6,11 +6,7 @@
 #include <filesystem>
 #include <iostream>
 
-#include <nlohmann/json.hpp>
 
-
-using json = nlohmann::json;
-
-std::vector<std::string> getFilesInDirectory(std::string directory_path);
+std::vector<std::filesystem::path> getFilesInDirecotry(const std::string& path_directory);
 
 #endif /*!FILES_H*/

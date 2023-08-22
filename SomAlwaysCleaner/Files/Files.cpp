@@ -1,9 +1,9 @@
 #include "Files.h"
 
-std::vector<std::string> getFilesInDirectory(std::string directory_path)
+std::vector<std::filesystem::path> getFilesInDirecotry(const std::string& path_directory)
 {
-    std::string folder_path = directory_path;
-    std::vector<std::string> file_names;
+    std::string folder_path = path_directory;
+    std::vector<std::filesystem::path> file_names;
 
     std::filesystem::path dir_path(folder_path);
 
@@ -13,18 +13,19 @@ std::vector<std::string> getFilesInDirectory(std::string directory_path)
         {
             if (std::filesystem::is_regular_file(entry))
             {
-                file_names.push_back(entry.path().filename().string());
+                file_names.push_back(entry.path());
             }
             if (std::filesystem::is_directory(entry))
             {
-                file_names.push_back(entry.path().filename().string());
+                file_names.push_back(entry.path());
             }
         }
     }
     else
     {
         std::cerr << "Не удалось открыть папку." << std::endl;
-        return std::vector<std::string>();
+        file_names.push_back("");
+        return file_names;
     }
 
 
