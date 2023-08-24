@@ -9,6 +9,7 @@ void startNotification(std::wstring notification_tip, std::wstring notification_
     nid.uID = 1; // Уникальный идентификатор уведомления
     nid.uFlags = NIF_ICON | NIF_TIP | NIF_MESSAGE; // Флаги
     nid.uCallbackMessage = WM_USER + 1; // Кастомное сообщение для обработки кликов
+    //nid.hIcon;
 
     // Загрузка и установка иконки
     nid.hIcon = LoadIcon(NULL, IDI_INFORMATION);

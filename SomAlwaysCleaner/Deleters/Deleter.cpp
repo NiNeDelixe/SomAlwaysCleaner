@@ -17,7 +17,7 @@ int cleanDirectory(const std::string& directory_path, int year, int month, int d
     {
         if (files[0] == "")
         {
-            startNotification(L"Не удалось открыть папку", L"Ошибка удаления", L"Не удалось открыть папку");
+            startNotification(L"Не удалось открыть папку", L"Ошибка считывания", L"Не удалось открыть папку");
             return 1;
         }
     }
@@ -65,7 +65,8 @@ int cleanDirectory(const std::string& directory_path, int year, int month, int d
         if (status == false)
         {
             startNotification(L"Не удалось удалить файл", L"Ошибка удаления", L"Не удалось удалить файл");
-            return -1;
+            continue;
+            //return -1;
         }
     }
     return 0;

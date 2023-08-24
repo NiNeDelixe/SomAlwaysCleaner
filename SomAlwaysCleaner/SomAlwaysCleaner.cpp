@@ -7,9 +7,9 @@ int main(int argc, char* argv[])
 {
     //cleanDirectory("Папка_для_очистки", "", 0, 0, 0);
 
-	if (argc < 2)
+	if (argc < 5)
 	{
-		argcError(argc, argv, "didnt find folder");
+		argcError(0, argv, "does not enought arguments in command");
 		return 1;
 	}
 	if (argv[1])
@@ -31,8 +31,8 @@ int main(int argc, char* argv[])
 	}
 	else
 	{
-		argcError(argc, argv, "didnt find folder");
-		startNotification(L"Не найдена директория", L"Ошибка удаления", L"Не найдена директория");
+		argcError(0, argv, "folder in command is emtpy");
+		startNotification(L"Отсутствует директория в команде", L"Ошибка запуска", L"Отсутствует директория в команде");
 		return 1;
 	}
 	return 0;
@@ -40,5 +40,5 @@ int main(int argc, char* argv[])
 
 void argcError(int argc, char* argv[], std::string string)
 {
-	std::cerr << argv[0] << string << std::endl;
+	std::cerr << argv[argc] << " " << string << std::endl;
 }
